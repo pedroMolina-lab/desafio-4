@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./components/logo.js"></script>
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/form.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./pages/index.js"></script>
+    <link rel="stylesheet" href="./components/text.css" />
+    <link rel="stylesheet" href="./components/logo.css" />
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./components/form.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <section class="bienvenida">
+      <template id="bienvenida__temp">
+        <div class="bienvenida__container">
+          <h1 class="text__main-title"></h1>
+          <h2 class="text__sub-title"></h2>
+        </div>
+      </template>
+    </section>
+    <section class="about-me">
+      <template id="about-me__temp">
+        <div class="about-me__conteiner">
+          <div class="about-me__img-conteiner">
+            <img class="about-me__img" src="" alt="" />
+          </div>
+          <div class="about-me__text-conteiner">
+            <h3 class="text__sub-title text--white"></h3>
+            <p class="text__pharagraph text--white"></p>
+          </div>
+        </div>
+      </template>
+    </section>
+    <section class="my-services">
+      <div class="my-service__title-conteiner">
+        <h4 class="text__sub-title">Mis servicios</h4>
+      </div>
+      <div class="my-services__cards-conteiner">
+        <template id="my-services__temp">
+          <div class="card">
+            <img class="card__img" src="" alt="" />
+            <h5 class="text__card-title"></h5>
+            <p class="text__pharagraph"></p>
+          </div>
+        </template>
+      </div>
+    </section>
+    <section class="contact-me"></section>
+    <section class="section-footer"></section>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.bienvenida{
+    height: 100vh;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/003/127/954/small/abstract-template-blue-background-white-squares-free-vector.jpg");
+    background-size: 100% 100%;
+}
+
+.bienvenida__container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-me{
+    height: 80vh;
+    background-color: #000000;
+    padding: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  
+  
+}
+
+.about-me__conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+@media(min-width:960px){
+    .about-me__conteiner{
+        flex-direction: row;
+        gap: 20px;
+        
+    }
+}
+
+.about-me__text-conteiner{
+    display: grid;
+    text-align: center;
+    gap: 40px;
+    max-width: 550px;
+    
+}
+
+@media(min-width:960px){
+    .about-me__text-conteiner{
+        text-align: left;
+        gap: 0px;
+       
+    }
+}
+
+.about-me__img{
+    display: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+@media(min-width:960px){
+    .about-me__img{
+        display: inherit;
+    }
+}
+.my-services{
+    height: 1325px;
+    overflow: auto;
+}
+
+@media(min-width:960px){
+    .my-services{
+        height: 600px;
+    }
+}
+
+
+
+.my-service__title-conteiner{
+    width: 250px;
+    margin: 40px auto 0px;
+    text-align: center;
+}
+
+.my-services__cards-conteiner{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:960px){
+    .my-services__cards-conteiner{
+        flex-direction: row;
+    }
+}
+
+.card{
+    width: 300px;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 10%;
+    background-image: url("https://img.lovepik.com/background/20211021/large/lovepik-festive-red-background-image_401698264.jpg");
+    background-size: 100% 100%;    text-align: center;
+    transition: all 0.5s linear;
+    
+}
+
+.card__img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+
+
+
+
+.contact-me{
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; }

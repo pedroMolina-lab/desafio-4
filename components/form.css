@@ -1,0 +1,17 @@
+.contacto {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.contacto__title {
+  font-family: "Montserrat";
+}
+
+.contacto__label,
+.contacto__input {
+  font-family: "Poppins";
+}

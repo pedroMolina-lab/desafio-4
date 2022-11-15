@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./components/logo.js"></script>
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./pages/portfolio.js"></script>
+    <link rel="stylesheet" href="./components/text.css" />
+    <link rel="stylesheet" href="./components/logo.css" />
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./pages/portfolio.css" />
+    <title>porfolio</title>
+  </head>
+  <body>
+    <section class="bienvenida">
+      <div class="conteiner__header"></div>
+      <div class="header__conteiner-title">
+        <h1 class="text__main-title">Portfolio</h1>
+      </div>
+    </section>
+    <section class="porfolio">
+      <div class="portfolio__conteiner-cards"></div>
+      <template id="portfolio__template">
+        <div class="card">
+          <img src="" alt="portfolio-img" class="card__img-preview" />
+          <div class="card__conteiner-content">
+            <h2 class="card__title text__card-title"></h2>
+            <p class="card__description text__pharagraph"></p>
+            <a class="card__link text__link--small" href="">Ver mas</a>
+          </div>
+        </div>
+      </template>
+    </section>
+    <section class="footer-section">
+      <div class="conteiner__footer"></div>
+    </section>
+  </body>
+</html>
